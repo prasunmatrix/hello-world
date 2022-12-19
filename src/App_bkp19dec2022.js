@@ -5,8 +5,6 @@ import { Greet } from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import  Greet1  from './components/Greet1';
-import Message from './components/Message';
-import Counter from './components/Counter';
 
 function App() {
   return (
@@ -33,11 +31,8 @@ function App() {
       <Greet1 name="Clark" heroName="Superman">
         <button>Action</button>
       </Greet1>
-      <Welcome name="Bruce" heroName="Batman" />
-      <Welcome name="Clark" heroName="Superman" />
+      <Welcome/>
       <Hello/>
-      <Message/>
-      <Counter/>
     </div>
   );
 }

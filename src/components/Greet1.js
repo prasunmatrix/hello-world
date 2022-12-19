@@ -4,12 +4,17 @@ import React from "react";
 //   return <h1>Hello Vishwas New</h1>
 // }
 
-const Greet1 =props =>{
+const Greet1 = props => {
   //console.log(props)
-  return <h1>Hello {props.name}</h1>
+  return (
+    <div>
+      <h1>Hello {props.name} a.k.a {props.heroName}</h1>
+      {props.children}
+    </div>
+  )
 }
 //const Greet1 =() =><h1>Hello Vishwas New</h1>
 
 
 
- export default Greet1 
+export default Greet1 
