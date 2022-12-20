@@ -7,6 +7,7 @@ import Hello from './components/Hello';
 import  Greet1  from './components/Greet1';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import Greet2 from './components/Greet2';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       <Welcome name="Clark" heroName="Superman" />
       <Hello/>
       <Message/>
-      <Counter/>
+      <Counter/><br/>
+      <Greet2 name="Messi" heroName="World cup"/>
     </div>
   );
 }
