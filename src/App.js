@@ -8,6 +8,7 @@ import  Greet1  from './components/Greet1';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Greet2 from './components/Greet2';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       <Hello/>
       <Message/>
       <Counter/><br/>
-      <Greet2 name="Messi" heroName="World cup"/>
+      <Greet2 name="Messi" heroName="World cup"/><br/>
+      <ClassClick/>
     </div>
   );
 }
