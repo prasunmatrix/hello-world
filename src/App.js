@@ -11,6 +11,7 @@ import Greet2 from './components/Greet2';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       <Greet2 name="Messi" heroName="World cup"/><br/>
       <FunctionClick/><br/>
       <ClassClick/><br/>
-      <EventBind/>
+      <EventBind/><br/>
+      <ParentComponent/>
     </div>
   );
 }
