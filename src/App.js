@@ -18,6 +18,10 @@ import NameList1 from './components/NameList1';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
@@ -59,7 +63,11 @@ function App() {
       <NameList1/><br/>
       <Stylesheet primary={true} />
       <Inline />
-      <Form />
+      <Form /><br/>
+      <FragmentDemo /><br/>
+      <Table/><br/>
+      {/* <PureComp/> */}
+      <ParentComp />
 
     </div>
   );
