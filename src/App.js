@@ -25,6 +25,8 @@ import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import PortalDemo from './components/PortalDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
@@ -73,7 +75,9 @@ function App() {
       <ParentComp /><br/>
       <RefsDemo /><br/>
       <FocusInput /><br/>
-      <PortalDemo />
+      <PortalDemo /><br/>
+      <ClickCounter /><br/>
+      <HoverCounter />
 
     </div>
   );
