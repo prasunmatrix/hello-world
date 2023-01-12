@@ -27,6 +27,7 @@ import FocusInput from './components/FocusInput';
 import PortalDemo from './components/PortalDemo';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
 
 function App() {
   return (
@@ -77,7 +78,8 @@ function App() {
       <FocusInput /><br/>
       <PortalDemo /><br/>
       <ClickCounter /><br/>
-      <HoverCounter />
+      <HoverCounter /><br/>
+      <ClickCounterTwo />
 
     </div>
   );
