@@ -28,6 +28,8 @@ import PortalDemo from './components/PortalDemo';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
@@ -79,7 +81,10 @@ function App() {
       <PortalDemo /><br/>
       <ClickCounter /><br/>
       <HoverCounter /><br/>
-      <ClickCounterTwo />
+      <ClickCounterTwo /><br/><br/>
+      <UserProvider value="SAYAN">
+        <ComponentC/>
+      </UserProvider>
 
     </div>
   );
